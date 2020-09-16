@@ -5,5 +5,6 @@ def square_array(array)
   number.each do |num|
     squares << (num * num)
   end
+  binding.pry
   puts squares
 end
