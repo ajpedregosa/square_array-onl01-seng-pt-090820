@@ -4,5 +4,5 @@ def square_array(array)
   number.each do |num|
     squares << (num * num)
   end
-  puts squares
+  return squares
 end
